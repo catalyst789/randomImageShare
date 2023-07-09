@@ -26,12 +26,16 @@ export default function RootLayout({
       />
       <meta
         property="og:url"
-        content="http://webdevelopmentscripts.com/64-how-to-change-the-address-bar-color-in-chrome-firefox-opera-safari"
+        content="https://random-image-share.vercel.app/"
       />
       <meta
         property="og:image"
         content="http://webdevelopmentscripts.com/post-images/685b-change-browser-address-bar-color-chrome-android.jpeg"
       />
+      <meta property="twitter:image" content="https://www.webdevelopmentscripts.com/post-images/685b-change-browser-address-bar-color-chrome-android.jpeg"></meta>
+      <meta property="twitter:card" content="summary_large_image"></meta>
+      <meta property="twitter:title" content="Twitter link preview title"></meta>
+      <meta property="twitter:description" content="Twitter link preview description"></meta>
       <body className={inter.className}>{children}</body>
     </html>
   );
