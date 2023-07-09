@@ -5,7 +5,7 @@ import Image from "next/image";
 import ShareButtons from "./ShareButton";
 import Head from "next/head";
 
-const page = () => {
+const Page = () => {
   const [currRandomImage, setCurrRandomImage] = useState<string>();
 
 
@@ -34,4 +34,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
